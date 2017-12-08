@@ -40,7 +40,11 @@ let make =
       "style": style,
       "type": mask,
       "onChangeText": onChangeText,
-      "value": value,
+      "value":
+        switch value {
+        | Some(value) => value
+        | None => ""
+        },
       "placeholder": placeholder
     },
     children

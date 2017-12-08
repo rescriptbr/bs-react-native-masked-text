@@ -16,5 +16,11 @@ yarn add bs-react-native-masked-input
 <MaskedInput type=`date value onChangeText/>
 ```
 
+### Done
+- [x] Types
+- [x] onChangeText
+- [x] value
+- [ ] options
+
 For more types check the MaskedText.re file
 
